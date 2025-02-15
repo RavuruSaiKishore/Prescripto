@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+.active hr{
+    @apply block
+}
+
+/*  this for the hidden the scroll bar */
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+
+@media(max-width:740px){
+    .active p{
+        @apply text-white bg-primary
+    }
+}
