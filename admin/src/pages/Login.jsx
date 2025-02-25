@@ -14,7 +14,7 @@ const Login = () => {
 
   const { setAToken  } = useContext(AdminContext);
   const { setDToken } = useContext(DoctorContext);
-  const backendUrl = "http://localhost:8080";
+  const backendUrl = "https://prescripto-backend-c3v0.onrender.com";
  
 
 
